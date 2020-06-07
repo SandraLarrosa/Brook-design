@@ -1,4 +1,35 @@
-header{
-    background-color:grey;
+.header{
+    background-color: $primary-color;
     font-family: $font-primary;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    &__menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+
+        &--nav--icon{
+            @media all and (min-width: 768px){
+                display: none;
+            }
+        }
+        &--nav--li{
+            display:none;
+            @media all and (min-width: 768px){
+                display: flex;
+                justify-content: center;
+                color: $light-color;
+                font-size: 16px;
+            }
+            & li{
+                padding-left: 35px;
+                text-transform: capitalize;
+            }
+        }
+    }
 }
+
+

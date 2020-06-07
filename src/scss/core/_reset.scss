@@ -352,4 +352,11 @@
         box-sizing: border-box;
         color: inherit;
         text-decoration: none;
+        list-style: none;
+  }
+
+  .wrapper {
+    max-width:1200px;
+    margin:auto;
+    width:100%;
   }
