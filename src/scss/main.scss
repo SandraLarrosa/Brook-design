@@ -1,7 +1,5 @@
-@import 'core/variables';
-@import 'core/reset';
-@import 'components/links';
-@import 'layout/page';
-@import 'layout/header';
-@import 'layout/footer';
-@import 'pages/index';
+@import 'core/reset.scss';
+@import 'core/variables.scss';
+@import 'layout/header.scss';
+@import 'layout/main.scss';
+@import 'layout/footer.scss';
